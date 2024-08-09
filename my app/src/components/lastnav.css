@@ -1,0 +1,13 @@
+.menu-box i, .last-nav i{
+    opacity: 0.5;
+    font-size: small;
+    font: 100;
+  }
+  .home-content{
+    height: 4rem;
+    width: 100%;
+    background-color:#E5E7EB;
+  }
+.last-nav p{
+    padding-top: 13px;
+}

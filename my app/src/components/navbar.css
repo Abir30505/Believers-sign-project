@@ -1,0 +1,94 @@
+.navbar-container .logo {
+    background: url('../assets/WhatsApp\ Image\ 2024-08-01\ at\ 11.12.48\ PM.jpeg');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain; /* or cover */
+  }
+  .search-box input{
+    outline: none;
+    border: 1px solid #CD6727;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 5px;
+  }
+  .search-button button{
+    background: #CD6727;
+    height: 2.5rem;
+    width: 4rem;
+  }
+  @media (max-width: 676px) {
+    .search-button button{
+      background-color: white;
+      border: none;
+    }
+    .search-button .fa-magnifying-glass {
+      color: #CD6727;
+    }
+  }
+  .search-button i,.profile-section i{
+    color: white;
+    font-size: medium;
+    font: bold;
+  }
+  .profile-section{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #CD6727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart-section i{
+    color:#CD6727
+  }
+  .menu-section{
+    padding: 0px 10px;
+  }
+  .menu-box{
+    height: 4rem;
+    width:11.11%;
+    border: 1px solid rgb(19, 18, 18,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+  }
+  .menu-box i{
+    opacity: 0.5;
+    font-size: small;
+    font: 100;
+  }
+  .menu-box .fa-house{
+    opacity: 2;
+  }
+  
+.dropdown{
+    position:absolute;
+    display: none;
+    top: 3.8rem;
+    left: 4rem;
+    width: 8rem;
+    height: fit-content;
+    background-color:#F9FAFB;
+}
+.menu-box:hover .dropdown{
+    display: block;
+  }
+  
+  .dropdown p{
+    text-align: center;
+    font-size: medium;
+    font: bold;
+    border-bottom: 1px solid rgb(19, 18, 18,0.2);
+    padding-bottom: 4px;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .menu-box:hover a{
+    color: #CD6727;
+  }

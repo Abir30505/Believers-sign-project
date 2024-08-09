@@ -1,0 +1,27 @@
+
+.product-container{
+  border: 1px solid #CD6727;
+  margin: 3px 10px;
+  padding: 0px;
+  width: 14rem;
+}
+.product-container p{
+  font-size: small;
+}
+.container img{
+  width: 100%;
+  height: 10rem;
+  border-radius: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.product-container button{
+  width: 100%;
+  height: 2rem;
+  background-color: #CD6727;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  color: white;
+}
